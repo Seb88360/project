@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="CSS/style.css" rel="stylesheet">
+    <title>PeaceNCode - Contact</title>
+</head>
+<body>
+    <header>
+        <a href="Index.html" id="logo"><img id="img1" src="Images/dev.png" alt="Logo principal"></a>
+        <h1>Peace n' Code</h1>
+        <a href="Eleve.html" id="login"><img src="Images/user.png" alt="Login"></a>
+    </header>
+    <nav>
+        <a href="Index.html">ACCUEIL</a>
+        <a href="Eleve.html">ELEVE</a>
+        <a href="Blog.html">BLOG</a>
+        <a href="Contact.html">CONTACT</a>
+    </nav>
+
+    <h2>Nous Contacter</h2>
+    <form action="#">
+        <fieldset>
+          <legend>Contact</legend>
+            <label for="nom">Nom <em>*</em></label>
+            <input id="nom" placeholder="Nom" autofocus="autofocus" required="required"><br>
+            <label for="telephone">Portable</label>
+            <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+            <label for="email">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="votre adresse mail" required=""><br>
+            <label for="comments">Laissez nous votre message : </label>
+            <textarea id="comments"></textarea><br><br>
+            <input type="submit" value="Envoyer">
+        </fieldset>
+      </form>
+
+    <footer>
+        <div id="footer_left">
+            <p>Copyright</p>
+        </div>
+
+        <div id="footer_center">
+            <p>Peace n' Code 2021-2022</p>
+        </div>
+
+        <div id="footer_right">
+            <p>Mentions Légales</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,257 @@
+/* PAGE INDEX */
+*{
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: rgb(0, 70, 150);
+}
+header a img{
+    margin-left: 10px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border-bottom: 1px solid grey;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(0, 71, 133);
+}
+nav a:hover{
+    font-size: 20px;
+    color: rgb(4, 159, 206);
+    font-weight: bold;
+    border-bottom: 4px solid rgb(4, 159, 206);
+}
+h1{
+    font-size: 32px;
+    color: whitesmoke;
+}
+h2{
+    margin-bottom: 20px;
+}
+.Sec1{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.Sec2{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.Sec3{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+.Sec4{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+#divSec1, #divSec4{
+    margin-left: 5%;
+}
+#divSec2{
+    margin-right: 5%;
+}
+.Sec1 img, .Sec2 img, .Sec4 img{
+    height: 300px;
+    width: 33%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px grey;
+}
+.logolangue{
+    border: none;
+    box-shadow: none;
+}
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: gainsboro;
+    height: 100px;
+    align-items: center;
+}
+/* RESPONSIVE PAGE INDEX */
+@media (max-width: 600px){
+    #img1{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .Sec1 img, .Sec2 img, .Sec4 img{
+        margin-bottom: 50px;
+        height: 250px;
+        width: 75%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px grey;
+    }
+}
+
+
+/* PAGE BLOG */
+section div button{
+    border: grey;
+}
+.SecBlog1{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.SecBlog2{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+#divBlogSec21{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.SecBlog3{
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.SecBlog1 img, .SecBlog2 img, .SecBlog3 img{
+    height: 300px;
+    width: 33%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px grey;
+}
+#divBlogSec1, #divBlogSec3{
+    margin-left: 5%;
+}
+#divBlogSec2{
+    margin-right: 5%;
+}
+.divblogmini{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+/* RESPONSIVE PAGE BLOG */
+@media (max-width: 600px){
+    #img1{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .SecBlog1 img, .SecBlog2 img, .SecBlog3 img{
+        margin-bottom: 50px;
+        height: 250px;
+        width: 75%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px grey;
+    }
+}
+
+/* PAGES ARTICLES */
+#divh2{
+    text-align: center;
+    margin-top: 50px;
+}
+#divp{
+    text-align: center;
+}
+
+/* PAGE ELEVES */
+#title_form, #title_eleve{
+    margin: 75px 0 0 10%;
+}
+.secFormateurs{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 75px;
+}
+.secEleves{
+    margin-top: 75px;
+}
+.secFormateurs img, .secEleves img{
+    margin: 10px;
+}
+.secFormateurs a img:hover, .secEleves a img:hover{
+    opacity: 0.8;
+}
+
+/* PAGE CONTACT */
+form{
+    margin: auto;
+    width: 50%;
+}
+form p{
+    margin-top: 0px;
+}
+fieldset{
+    margin: auto;
+    padding: 10px;
+}
+legend{
+    padding: 0px 3px;
+    font-weight: bold;
+}
+label{
+    width: 110px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+    color: #f00;
+}
+input:focus{
+    background: #eaeaea;
+}
+input, textarea{
+    width: 249px;
+}
+textarea{
+    height: 100px;
+}
+select{
+    width: 254px;
+} 
+input[type=submit]{
+    width: 100px;
+    padding: 5px;
+    border: 1px solid orange;
+}
