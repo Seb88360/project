@@ -19,6 +19,12 @@ header{
 header a img{
     margin-left: 10px;
 }
+#menuburger{
+    display: none;
+    position: absolute;
+        top: 25px;
+        right: 5px;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -94,8 +100,19 @@ footer{
     height: 100px;
     align-items: center;
 }
+
+
 /* RESPONSIVE PAGE INDEX */
 @media (max-width: 600px){
+    h1{
+        font-size: 18px;
+    }
+    #menuburger{
+        display:flex;
+    }
+    header a img{
+        margin-right: 110px;   
+    }
     #img1{
         display: none;
     }
@@ -113,8 +130,25 @@ footer{
         border-radius: 5px;
         box-shadow: 1px 1px 10px grey;
     }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: whitesmoke;
+        border-bottom: 1px solid grey;
+    }
+    nav a{
+        text-decoration: none;
+        padding: 20px;
+        font-size: 20px;
+        color: rgb(0, 71, 133);
+    }
+    nav a:hover{
+        font-size: 20px;
+        color: rgb(4, 159, 206);
+        font-weight: bold;
+        border-bottom: 4px solid rgb(4, 159, 206);
+    }
 }
-
 
 /* PAGE BLOG */
 section div button{
