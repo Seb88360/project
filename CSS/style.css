@@ -270,7 +270,7 @@ label{
 em{
     font-weight: bold;
     font-style: normal;
-    color: #f00;
+    color: rgb(4, 159, 206);
 }
 input:focus{
     background: #eaeaea;
@@ -287,5 +287,5 @@ select{
 input[type=submit]{
     width: 100px;
     padding: 5px;
-    border: 1px solid orange;
+    border: 1px solid rgb(0, 70, 150);
 }
